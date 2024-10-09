@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
+/*This style sheet is handles the contacts page and acts
+as the default for the Works page.*/
+
+body{
+    background-color: rgb(40,44,51);
+    /*font from Google fonts*/
+    font-family: 'Fira Mono';
+    font-weight: 500;
+    /*variable for the purple accents*/
+    --accent-color: rgb(199,120,221);
+
+}
+
+/*css for the veritcal line on the left that 
+I couln't get working*/
+.side-bar{
+    margin-top: 20px;
+}
+.vertical-line{
+    width: 2px;
+    height: 200px;
+    background-color: rgb(242,242,242);
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.icons{
+    align-items: center;
+    margin-left: 23px;
+}
+
+/*Colors for navbar hamburger*/
+.navbar-toggler{
+    color: rgb(242,242,242);
+    border-color: rgb(242,242,242);
+}
+
+/*handles right side of navbar*/
+.navbar-brand{
+    margin-left: 200px;
+    color: rgb(242,242,242);
+}
+
+/*handles left side of navbar*/
+.navbar-nav{
+    margin-right: 200px;
+    
+}
+
+.navbar-nav .nav-link{
+    color: rgb(171,178,191); 
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(242,242,242);
+}
+.navbar-nav .nav-link.active{
+    color: rgb(242,242,242);
+}
+
+.contacts{
+    color: rgb(242,242,242);
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.contacts header{
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.contacts header p{
+    color: rgb(242,242,242);
+}
+.contacts p{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: rgb(171,178,191);
+}
+
+/*all of these keep the links the same color regardless
+of condition*/
+a:link{
+    color: rgb(171,178,191);
+}
+a:visited{
+    color: rgb(171,178,191);
+}
+a:hover{
+    color: rgb(171,178,191);
+}
+a:active{
+    color: rgb(171,178,191);
+}
+
+/*grid for main*/
+.grid-container{
+    display: grid;
+    grid-template-columns: 75% 14%;
+    
+}
+.contacts .rightGrid{
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(171,178,191); 
+    padding: 15px;
+    font-weight: 400;
+}
+.contacts .rightGrid p{
+    margin-top: 10px;
+}
+.contacts .rightGrid .message{
+    color: rgb(242,242,242);
+}
+.allMedia{
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+.allMedia .medias{
+    font-weight: 400;
+    color: rgb(171,178,191); 
+}
+hr{
+    color: rgb(242,242,242);
+    size: 10px;
+}
+.footer .grid-container{
+    color: rgb(242,242,242);
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.footer{
+    font-weight: 400;
+}
+.footer .rightGrid{
+    font-size: 30px;
+}
+.copyright{
+    text-align: center;
+    color: rgb(171,178,191);
+    margin-top: 70px;
+}
+
